@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 func createRndArr(arr []int) {
@@ -43,6 +44,13 @@ func main() {
 	marr := merge(rnd_arr)
 	fmt.Println(marr)
 
+	fmt.Println("Quick")
+	createRndArr(rnd_arr)
+	fmt.Println(rnd_arr)
+	quick(rnd_arr, 0, size - 1)
+	fmt.Println(rnd_arr)
+
+	fmt.Println(time.Now())
 }
 
 
