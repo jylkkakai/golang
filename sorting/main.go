@@ -36,6 +36,13 @@ func main() {
 	fmt.Println(rnd_arr)
 	insertion(rnd_arr)
 	fmt.Println(rnd_arr)
+
+	fmt.Println("Merge")
+	createRndArr(rnd_arr)
+	fmt.Println(rnd_arr)
+	marr := merge(rnd_arr)
+	fmt.Println(marr)
+
 }
 
 
