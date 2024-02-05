@@ -12,17 +12,18 @@ func main () {
 	
 	list.printList()
 	list.pop()
+	list.sort()
 	list.push(10)
+	list.sort()
 	list.push(32)
 	list.printList()
 	for i := 0; i < 10; i++ {
 		list.push(rand.Intn(100))
 	}
 	list.printList()
-	fmt.Println(list)
-	list.printListAll()
+	//list.printListAll()
 	list.pop()
 	list.printList()
-	fmt.Println(list)
-	list.printListAll()
+	list.sort()
+	list.printList()
 }
