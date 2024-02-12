@@ -1,1 +1,2 @@
 # golang
+Learning go
