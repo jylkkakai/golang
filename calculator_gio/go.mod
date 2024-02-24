@@ -2,7 +2,7 @@ module github.com/jylkkakai/golang/calculator_gio
 
 go 1.21.6
 
-require gioui.org v0.4.2
+require gioui.org v0.5.0
 
 require (
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect
